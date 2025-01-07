@@ -1,0 +1,58 @@
+/* Styles for the skills table */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #343a40;
+}
+
+.skills-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.skills-table th, .skills-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+.skills-table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.skills-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.skill-level {
+    width: 100px;
+    text-align: center;
+}
+
+.progress {
+    background-color: #e9ecef;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #007bff;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    transition: width 0.3s;
+}

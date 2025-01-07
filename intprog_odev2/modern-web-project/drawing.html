@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çizim Sayfası</title>
+    <link rel="stylesheet" href="css/drawing.css">
+</head>
+<body>
+    <header>
+        <h1>Çizim Aracı</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımda</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+                <li><a href="drawing.html">Çizim</a></li>
+                <li><a href="calculator.html">Hesap Makinesi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Canvas Üzerinde Çizim Yapın</h2>
+        <canvas id="drawingCanvas" width="800" height="400" style="border:1px solid #000;"></canvas>
+        <div>
+            <label for="colorPicker">Renk Seç:</label>
+            <input type="color" id="colorPicker">
+            <label for="brushSize">Fırça Boyutu:</label>
+            <input type="number" id="brushSize" min="1" max="20" value="5">
+            <button id="clearCanvas">Temizle</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Kişisel Portföy</p>
+    </footer>
+    <script src="js/canvas.js"></script>
+</body>
+</html>
